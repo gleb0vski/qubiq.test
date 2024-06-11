@@ -302,6 +302,8 @@ header nav ul {
 
 .swiper-slide img {
     position: relative;
+	max-width: 100%;
+	height: auto;
 }
 
 .swiper-slide::before{
@@ -394,16 +396,6 @@ header nav ul {
 
  .first-slider-title {
     line-height: 74px !important;
- }
-
-
- .next-ring{
-    border: 1px solid var(--clr-white);
-    border-radius: 50%;
-
-    height: 115px;
-    width: 115px;
-
  }
 
 
